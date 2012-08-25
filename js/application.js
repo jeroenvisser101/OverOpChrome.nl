@@ -8,5 +8,11 @@ Bootstrap prepends:
 Custom prepends:
 	@codekit-prepend "../js/custom-file.js"
 */
-
-i18n.init();
+$.i18n.init({
+	lng: 'nl-NL',
+	useLocalStorage: false,
+	resGetPath: 'locales/__lng__/__ns__.json',
+	debug: true,
+}, function() {
+	$(document).i18n();
+});

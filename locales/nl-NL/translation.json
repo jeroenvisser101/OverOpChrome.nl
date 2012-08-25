@@ -1,3 +1,13 @@
 {
-	
+	"app": {
+		"title": "$t(name_link): $(lead_text)",
+		"name": "Over naar Chrome",
+		"name_link": "OverNaarChrome.nl",
+		"lead_text": "Omdat er beter is dan IE"
+	},
+	"nav": {
+		"logo_alt": "$t(app.name_link)",
+		"lead": "$t(app.lead_text)",
+		"title": "$t(app.name)"
+	}
 }

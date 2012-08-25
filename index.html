@@ -1,13 +1,109 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="nl-NL">
 	<head>
 		<meta charset="UTF-8">
-		<title>OverNaarChrome: Omdat er beter bestaat!</title>
+		<title data-i18n="app.title">OverNaarChrome.nl: Omdat er beter bestaat dan IE!</title>
 		<link rel="stylesheet" href="./css/style.css">
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
 	</head>
 	<body>
-		
+		<section class="wrapper">
+			<nav class="navbar navbar-fixed-top">
+				<div class="navbar-inner">
+					<div class="container">
+						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+						<a class="brand logo" href="#">
+							<img src="./img/logo.png" height="30" alt="OverNaarChrome.nl" data-i18n="[alt]nav.logo_alt">
+						</a>
+						<a href="#" class="brand" data-i18n="nav.title">
+							Over naar Chrome
+						</a>
+
+						<div class="nav-collapse pull-right">
+							<ul class="nav">
+								<li>
+									<a href="./downloaden.html">Direct downloaden!</a>
+								</li>
+								<li>
+									<a href="./waarom-overstappen.html">Waarom overstappen?</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<header class="jumbotron masthead">
+				<h1>Ga over naar Chrome!</h1>
+				<p>Overgaan naar Google Chrome is simpeler dan ooit!</p>
+			</header>
+			<header class="social">
+				<ul class="social-buttons">
+					<li>
+						<div class="fb-like" data-href="http://overnaarchrome.nl/" data-send="false" data-layout="button_count" data-width="123" data-show-faces="false"></div>
+					</li>
+					<li>
+						<g:plusone size="small" data-href="http://overnaarchrome.nl/"></g:plusone>
+					</li>
+				</ul>
+			</header>
+
+			<section class="container">
+				<h2>Waarom over naar Google Chrome?</h1>
+			</section>
+
+			<!-- Footer hack -->
+			<section class="footer-push"></section>
+		</section>
+
+		<footer>
+			<section class="container">
+				<p class="pull-right">
+					<a href="/systeem">
+						<span class="dimmed">v<span data-i18n="app.version">0.0.1</span> (beta)</span>
+					</a>
+				</p>
+				<p>
+					<a href="/over">Over</a> - <a href="/algemene-voorwaarden">Algemene voorwaarden</a> - <a href="/privacy-statement">Privacy statement</a> - <a href="https://www.facebook.com/fhuiswerk">Vind ons leuk op Facebook!</a> - <a href="/contact">Contact</a> - <a href="/admin">Administratiecentrum</a>
+				</p>
+				<p>© 2010-2012 FUCKHuiswerk.nl - Alle rechten voorbehouden</p>
+			</section>
+		</footer>
+
 		<!-- Now for the fancy js part: -->
 		<script type="text/javascript" src="./js/application-min.js"></script>
+
+		<!-- Twitter -->
+		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+		<!-- Facebook -->
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = "//connect.facebook.net/nl_NL/all.js#xfbml=1";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+
+		<!-- Google + -->
+		<script type="text/javascript">
+			window.___gcfg = {lang: 'nl'};
+			(function() {
+				var po = document.createElement('script');
+				po.type = 'text/javascript';
+				po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(po, s);
+			})();
+		</script>
 	</body>
 </html>
