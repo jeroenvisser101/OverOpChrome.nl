@@ -1,6 +1,12 @@
 body {
 	font-family: 'Open Sans', arial, sans-serif;
 }
+.navbar .navbar-inner {
+	@light: rgba(255,255,255,.9);
+	@dark: rgba(220,220,220,.9);
+	#gradient > .vertical(@light, @dark);
+	background-color: transparent;
+}
 .dimmed {
 	.opacity(50);
 }
