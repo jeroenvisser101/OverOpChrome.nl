@@ -35,3 +35,13 @@ var updateTimer = function (){
 	return currentUsers;
 };
 updateTimer();
+
+// OS dependable header:
+(function ($){
+	var currentOS = navigator.appVersion;
+	if(currentOS.indexOf("Win") !== -1){
+		$('.browser-default').removeClass('browser-default').addClass('browser-win');
+	} else if(currentOS.indexOf("Win") !== -1){
+		$('.browser-default').removeClass('browser-default').addClass('browser-linux');
+	}
+})($);
