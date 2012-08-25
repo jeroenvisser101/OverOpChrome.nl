@@ -3,7 +3,7 @@
 		"title": "$t(name_link): $(lead_text)",
 		"name": "Over op Chrome",
 		"name_link": "OverOpChrome.nl",
-		"lead_text": "Omdat er beter is dan IE"
+		"lead_text": "De browser die ontworpen is voor het moderne web"
 	},
 	"nav": {
 		"logo_alt": "$t(app.name_link)",
