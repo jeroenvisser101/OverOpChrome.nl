@@ -2,10 +2,31 @@
 <html lang="nl-NL">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title data-i18n="app.title">OverNaarChrome.nl: Omdat er beter bestaat dan IE!</title>
 		<link rel="stylesheet" href="./css/style.css">
 		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
 		<link rel="icon" type="image/png" href="./img/logo/32.png">
+
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-34349206-1']);
+		  _gaq.push(['_setDomainName', 'overnaarchrome.nl']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+
+		<!-- IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 	</head>
 	<body>
 		<section class="wrapper">
@@ -24,7 +45,7 @@
 							Over naar Chrome
 						</a>
 
-						<div class="nav-collapse pull-right">
+						<div class="nav-collapse">
 							<ul class="nav">
 								<li>
 									<a href="./downloaden.html">Direct downloaden!</a>
@@ -38,15 +59,12 @@
 				</div>
 			</nav>
 
-			<header class="jumbotron masthead">
-				<h1>Ga over naar Chr<img src="./img/logo/32.png">me!</h1>
-				<p>Overgaan naar Google Chrome is simpeler dan ooit!</p>
+			<header class="jumbotron masthead browser-default">
+				<h1>Ga over naar Google Chrome!</h1>
+				<p>Overgaan naar Google Chrome is nu simpeler dan ooit!</p>
 				<div class="btn-group" id="download-buttons">
 					<a href="https://www.google.com/intl/nl/chrome/browser/#eula" class="btn btn-large btn-primary">
-						<img src="./img/logo/32.png">
-					</a>
-					<a href="https://www.google.com/intl/nl/chrome/browser/#eula" class="btn btn-large btn-primary">
-						Download!
+						<img src="./img/logo/32.png"><span>Download Google Chrome</span>
 					</a>
 				</div>
 				<p class="muted"><span class="chrome-user-count">300</span> gebruikers gingen u voor!</p>
@@ -63,8 +81,50 @@
 			</header>
 
 			<section class="container">
-				<h2>Waarom overstappen naar Google Chrome?</h2>
-				<p>Google Chrome is een van de meest geavanceerde browsers die op het web te vinden zijn, maar toch blijft Google ervoor zorgen dat de gebruikersinterface super simpel is. Maar behalve de 'looks', heeft Google Chrome ook nog een aantal andere punten. Google Chrome is ook een grote deelnemer aan het maken van nieuwe webstandaarden. Omdat Google Chrome draait op de basis van <a href="http://nl.wikipedia.org/wiki/WebKit" target="blank" data-i18n="[href]home.url.webkit">Webkit</a> worden vele webstandaarden direct ondersteund.</p>
+				<h2 class="center">Waarom overstappen naar Google Chrome?</h2>
+				<div class="row">
+					<section class="span6">
+						<h3>Automatische updates</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</section>
+					<section class="span6">
+						<h3>De nieuwste webstandaarden</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</section>
+				</div>
+				<div class="row">
+					<section class="span6">
+						<h3>Voor op iedere computer</h3>
+						<p>Google Chrome is gemaakt om op ieder besturingssysteem te draaien. Op dit moment is Google Chrome beschikbaar voor Windows XP - Windows 8, Mac OS X</p>
+					</section>
+					<section class="span6">
+						<h3>Ge&iuml;ntegreerd met Google</h3>
+						<p>Google maakte Google Chrome, dus vanzelfsprekend is Google Chrome ge&iuml;ntegreerd met vele Google producten. Denk aan <a href="https://mail.google.com/">Gmail</a>, <a href="https://www.google.com/calendar/">Google Agenda</a>, <a href="https://drive.google.com/">Google Drive</a> en diverse anderen. Maar het zoeken met Google Chrome is past echt een ervaring.</p>
+					</section>
+				</div>
+				<div class="row">
+					<section class="span6">
+						<h3>Vele extenties en apps beschikbaar</h3>
+						<p>Google Chrome bevat standaard een 4-tal applicaties die het u nog makkelijker te maken uw webbrowser te gebruiken. Apps zoals Gmail en Google Agenda zijn vooraf ge&iuml;nstalleerd. Wilt u meer applicaties installeren? Neem dan een kijkje in de <a href="https://chrome.google.com/webstore">Chrome Web store</a>: de verzamelplaats voor alle apps die gemaakt zijn voor Google Chrome. Hierop kunnen ontwikkelaars en uitgevers apps voor Google Chrome plaatsen, zodat u geen urenlange zoektocht hoeft te starten naar waar u een bepaalde app kan vinden.</p>
+					</section>
+					<section class="span6">
+						<h3>Ontdek zelf wat Google Chrome kan!</h3>
+						<p>Hoe beter te ontdekken wat Google Chrome allemaal kan dan het zelf te bekijken? Probeer Google Chrome uit en u zult versteld staan van het enorm simpele systeem. Google Chrome is gemaakt zodat iedereen het kan gebruiken zonder daarbij een handleiding te raadplegen!</p>
+						<a href="https://www.google.com/intl/nl/chrome/browser/#eula" class="btn btn-primary">
+							Download Google Chrome!
+						</a>
+					</section>
+				</div>
 			</section>
 
 			<!-- Footer hack -->
@@ -74,14 +134,14 @@
 		<footer>
 			<section class="container">
 				<p class="pull-right">
-					<a href="/systeem">
-						<span class="dimmed">v<span data-i18n="app.version">0.0.1</span> (beta)</span>
-					</a>
+					<span class="dimmed">v<span data-i18n="app.version">0.0.1</span> (beta)</span>
 				</p>
 				<p>
-					<a href="./index.html">Home</a>
+					<a href="./index.html">Home</a> - 
+					<a href="https://github.com/jeroenvisser101/OverNaarChrome.nl/issues" target="blank">Een bug melden</a> - 
+					<a href="https://github.com/jeroenvisser101/OverNaarChrome.nl" target="blank">GitHub project</a>
 				</p>
-				<p>Copyright © 2012 <span data-i18n="app.name_link">OverNaarChrome.nl</span> - Alle rechten voorbehouden</p>
+				<p>Copyright © 2012 <span data-i18n="app.name_link">OverNaarChrome.nl</span> - Google and her products are © Google</p>
 			</section>
 		</footer>
 

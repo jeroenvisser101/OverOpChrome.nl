@@ -1,5 +1,57 @@
+.brand.logo {
+	height: 40px;
+	width: 40px;
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	img {
+		height: 35px;
+		position: relative;
+		top: 2px;
+	}
+}
+.jumbotron {
+	padding: 60px 30px;
+	text-align: center;
+	@shadow: inset 0 -3px 7px rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
+	.box-shadow(@shadow);
+}
+.masthead {
+	&:before {
+		height: 100%;
+		width: 100%;
+		display: block;
+		background-image: url('../img/chrome.svg');
+		background-size: auto 100%;
+		filter:alpha(opacity=50);
+		filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+		opacity:.50;
+	}
+}
+.jumbotron + .social {
+	height: 30px;
+	padding: 15px 0;
+	text-align: center;
+	background-color: whiteSmoke;
+	border-top: 1px solid white;
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 20px;
+}
+.jumbotron + .social .social-buttons {
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+.social-buttons li {
+	display: inline-block;
+	padding: 5px 8px;
+	line-height: 1;
+}
 #download-buttons .btn img {
 	width: 19px;
+	height: 19px;
+	margin-right: 10px;
 	margin-top: -3px;
 }
 #download-buttons {
