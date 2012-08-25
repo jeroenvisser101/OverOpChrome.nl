@@ -5,10 +5,10 @@ OverNaarChrome.nl is een site die mensen stimuleert Google Chrome te gebruiken a
 [Wat we willen bereiken?]
 Ons hoofddoel is om iedereen toegang te geven tot moderne webstandaarden en webontwikkelaars de mogelijkheid te geven om de gebruikerservaring tot een heel ander niveau te tillen. Help jij ons dit doel te verwezelijken?
 
-## Contributors
-
-### [Jeroen Visser](https://github.com/jeroenvisser101)
-HTML/PHP/JS/LESS/CSS
+## Authors
+**[Jeroen Visser](https://github.com/jeroenvisser101)**
++ [Twitter](http://twitter.com/jeroenvisser101)
++ [GitHub](https://github.com/jeroenvisser101)
 
 Want to be part of this project? Contact me using the [issues](https://github.com/jeroenvisser101/OverNaarChrome.nl/issues)!
 
