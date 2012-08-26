@@ -6,15 +6,13 @@
 	margin-left: 10px;
 	img {
 		height: 35px;
+		width: 35px;
 		position: relative;
 		top: 2px;
-		transition: all 1s ease;
-		-webkit-transform: rotate(0deg);
+		-webkit-transition: all .5s ease;
+		-webkit-transform: scale(1);
 		&:hover {
-			-webkit-animation-name: rotate; 
-			-webkit-animation-duration: 1s; 
-			-webkit-animation-iteration-count: infinite;
-			-webkit-animation-timing-function: linear;
+			-webkit-transform: scale(1.5);
 		}
 	}
 }
