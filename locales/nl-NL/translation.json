@@ -1,6 +1,6 @@
 {
 	"app": {
-		"title": "$t(name_link): $(lead_text)",
+		"title": "$t(name_link): $t(lead_text)",
 		"name": "Over op Chrome",
 		"name_link": "OverOpChrome.nl",
 		"lead_text": "De browser die ontworpen is voor het moderne web"
