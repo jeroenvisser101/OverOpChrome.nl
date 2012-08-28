@@ -1,8 +1,14 @@
-.animation-rotate {
+.rapid-rotate {
 	-webkit-animation-name: rotate; 
-	-webkit-animation-duration: 1s; 
+	-webkit-animation-duration: .2s; 
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+}
+
+.back {
+	-webkit-transition: -webkit-transform .7s ease-in-out,
+						top 1s ease-out!important;
+	left: 0px!important;
 }
 
 /* Our keyframes: */

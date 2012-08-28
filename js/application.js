@@ -45,3 +45,22 @@ updateTimer();
 		$('.browser-default').removeClass('browser-default').addClass('browser-linux');
 	}
 })($);
+
+// Fancy chrome logo animation:
+$(document).ready(function (){
+	$('.chrome-logo-animated').click(function (){
+		$this = $(this);
+		setTimeout(function (){
+			$(this.$this).css({
+				'left': 0
+			}).removeClass('rapid-rotate').hide().addClass('back');
+		}, 2000);
+		setTimeout(function (){
+			$(this.$this).fadeIn(750, function (){
+				$(this).removeClass('back');
+			});
+		}, 3500);
+		$(this).addClass('rapid-rotate')
+			   .css('left', $(document).width());
+	});
+});
